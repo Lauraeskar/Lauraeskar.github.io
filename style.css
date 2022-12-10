@@ -1,0 +1,359 @@
+body{
+    font-size: 16px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Abril Fatface', cursive;
+    
+}
+
+header{
+    width: 100%;
+    height: 8vh;
+    display: flex ;
+    justify-content: space-between;
+    background: rgb(223, 227, 227);
+    color: black;
+}
+
+.HeaderLogo{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.HeaderNav{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.HeaderNav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.NavFavorit{
+    width: 11%;
+    padding: 7px 0 7px 0;
+    border-radius: 15px 15px 15px 15px ;
+    text-align: center;
+}
+
+.NavFavorit:hover{
+    background-color: rgb(237, 28, 28);
+}
+
+.NavCarritoC{
+    padding: 7px 6px 7px 6px;
+    border-radius: 15px 15px 15px 15px ;
+    text-align: center;
+}
+
+.NavCarritoC:hover{
+    background-color: rgb(237, 28, 28);
+}
+
+.NavHombre{
+    padding: 7px 6px 7px 6px;
+    border-radius: 15px 15px 15px 15px ;
+    text-align: center;
+}
+
+.NavHombre:hover{
+    background-color: rgb(237, 28, 28);
+}
+
+.NavMujer{
+    padding: 7px 6px 7px 6px;
+    border-radius: 15px 15px 15px 15px ;
+    text-align: center;
+}
+
+.NavMujer:hover{
+    background-color: rgb(237, 28, 28);
+}
+
+.NavBusqueda{
+    padding: 7px 6px 7px 6px;
+    border-radius: 15px 15px 15px 15px ;
+    text-align: center;
+}
+
+.NavBusqueda:hover{
+    background-color: rgb(237, 28, 28);
+}
+
+.NavRegistro{
+    padding: 7px 6px 7px 6px;
+    border-radius: 15px 15px 15px 15px ;
+    text-align: center;
+}
+
+.NavRegistro:hover{
+    background-color: rgb(237, 28, 28);
+}
+
+
+.SeccionOne{
+    
+    position: relative;;
+}
+
+.SeccionOneTitle{
+    position: absolute;
+    width: 100%;
+    top: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.SeccionOne {
+    text-decoration: none;
+    color: rgb(254, 249, 249);
+    font-size: 1.2rem;
+}
+
+.SeccionOne img{
+    width: 100%;
+} 
+
+.SeccionFord{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.SeccionThre{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.SeccionTwo{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.SeccionFive{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*
+@media(max-width: 485px){
+
+    
+
+    header{
+      width: 90%;
+      height: 8vh;
+        }
+    
+    
+    .HeaderLogo{
+    
+       justify-content: left;
+       align-items: left;
+       font-size: 1rem;
+   }
+    
+    .HeaderNav{
+      align-items: left;
+      justify-content: space-evenly;
+      width: 70%;
+     }
+    
+    
+   .SeccionOneTitle{
+     position: absolute;
+      top: 180px;
+      justify-content: center;
+      font-size: 1rem;
+    }
+
+    .SeccionTwo img{
+        height: 20vh;
+        justify-content: space-between;
+     
+    }
+
+    .SeccionFord img{
+        height:20vh ;
+        justify-content: space-between;
+     }
+
+  .SeccionOne img{
+        width: 90%;
+    } 
+
+    .SeccionOne {
+        text-decoration: none;
+        color: rgb(252, 254, 255);
+        font-size: 0.9rem;
+    }
+
+    .SeccionThre{
+        width: 90%;
+        justify-content: center;
+        font-size: 0.8rem;
+    }
+    .SeccionFive{
+        width: 90%;
+        justify-content: center;
+        font-size: 0.8rem;
+    }
+
+    .NavFavorit{
+     
+        text-align: right;
+        font-size: 0rem;
+    }
+
+    .NavCarritoC{
+     
+        text-align: center;
+        font-size: 0rem;
+    }
+
+    .NavHombre{
+       
+        text-align: center;
+        font-size: 0rem;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .NavMujer{
+      
+        text-align: center;
+        font-size: 0rem;
+    }
+
+    .NavBusqueda{
+       
+        text-align: center;
+        font-size: small;
+        font-size: 0rem;
+    }
+
+    .NavRegistro{
+    
+        text-align: center;
+        font-size: 0rem;
+    }    
+
+
+}
+
+
+@media(min-width: 768px){
+
+    header{
+        width: 90%;
+        height: 8vh;
+    }
+
+
+    .HeaderLogo{
+
+        margin: 0%;
+        justify-content: left;
+        align-items: left;
+        font-size: 1.5rem;
+     }
+
+   .HeaderNav{
+        align-items: left;
+        justify-content: space-evenly;
+        width: 90%;
+     }
+
+
+   .SeccionOneTitle{
+        position: absolute;
+        top: 300px;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    .SeccionTwo img{
+        height: 25vh;
+       }
+    
+   .SeccionFord img{
+          height: 25vh ;
+       }
+    
+   .SeccionOne img{
+        width: 90%;
+    } 
+
+    .SeccionThre{
+        width: 90%;
+        justify-content: space-evenly;
+        font-size: 0.8rem;
+    }
+    .SeccionFive{
+        width: 90%;
+        justify-content: space-evenly;
+        font-size: 0.8rem;
+    }
+    
+}
+
+
+@media(max-width: 1024px){
+
+    header{
+        width: 91%;
+        height: 8vh;
+    }
+
+
+    .HeaderLogo{
+
+        margin: 0%;
+        justify-content: left;
+        align-items: left;
+        font-size: 2rem;
+     }
+
+   .HeaderNav{
+        align-items: left;
+        justify-content: space-evenly;
+        width: 80%;
+     }
+
+
+   .SeccionOne img{
+        width: 93%;
+    } 
+
+   .SeccionTwo img{
+    height: 40vh;
+   }
+
+   .SeccionFord img{
+      height:40vh ;
+   }
+
+   .SeccionOneTitle{
+        position: absolute;
+        top: 450px;
+        justify-content: center;
+    }
+
+
+}
+
+
+
